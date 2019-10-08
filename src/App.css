@@ -6,6 +6,7 @@
 body {
   margin-bottom: 160px !important; /* Height of the footer */
   padding: 0;
+  background-image: url("./images/BackgroundDark.png");
 }
 
 footer {
