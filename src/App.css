@@ -16,10 +16,53 @@ footer {
   height: 160px; /* Set the fixed height of the footer here */
 }
 
+/* Jumbotron */
+
+.letterB {
+  height: 130px;
+  width: 130px 
+ }
+.letterH {
+  height: 130px;
+  width: 130px;
+}
+.letterI {
+ height: 130px;
+ width: 60px 
+}
+.letterM {
+ height: 130px;
+ width: 130px 
+}
+.letterO {
+ height: 130px;
+ width: 130px 
+}
+.letterR {
+ height: 130px;
+ width: 130px 
+}
+.space {
+ height: 130px;
+ width: 55px 
+}
+.apostrophe {
+ height: 130px;
+ width: 30px 
+}
+
 /* Override Bootstrap Styling */
 
 .btn-primary {
   background-color: #025fce !important;
+}
+
+div#alphatron.jumbotron {
+  background: transparent !important;
+}
+.customLetters {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 button:focus,
