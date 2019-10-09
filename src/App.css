@@ -68,6 +68,22 @@ div#alphatron.jumbotron {
   padding-bottom: 10rem;
 }
 
+.aboutSection {
+  padding-bottom: 3rem;
+}
+
+.skillsSection {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.skillsHeader {
+  padding-bottom: 1rem;
+}
+.skills {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
 button:focus,
 button:active {
   outline: none !important;

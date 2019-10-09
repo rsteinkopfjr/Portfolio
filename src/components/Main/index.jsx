@@ -1,6 +1,7 @@
 ﻿import React, { Component } from "react";
 import Jumbotron from "../Jumbotron";
 import About from "../About";
+import Skills from "../Skills";
 
 class Main extends Component {
   render() {
@@ -8,6 +9,7 @@ class Main extends Component {
       <div>
         <Jumbotron />
         <About />
+        <Skills />
       </div>
     );
   }
