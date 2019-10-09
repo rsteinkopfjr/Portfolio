@@ -83,6 +83,18 @@ div#alphatron.jumbotron {
   text-align: center;
   padding-bottom: 1rem;
 }
+.workSection {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.workHeader {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.works {
+  text-align: center;
+  padding-bottom: 2rem;
+}
 
 button:focus,
 button:active {
