@@ -72,7 +72,7 @@ class Jumbotron extends Component {
               <span
                 className="txt-rotate"
                 data-period="2000"
-                data-rotate='[ " full stack developer.", " movie buff.", " sourdough enthusiast.", " sports fanatic.", " homebrewer." ]'
+                data-rotate='[ " full stack developer.", " movie buff.", " sourdough connoisseur.", " sports fanatic.", " homebrew enthusiast." ]'
               ></span>
             </h1>
           </div>

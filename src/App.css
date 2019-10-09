@@ -64,6 +64,9 @@ div#alphatron.jumbotron {
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
+.typeCarousel {
+  padding-bottom: 10rem;
+}
 
 button:focus,
 button:active {
