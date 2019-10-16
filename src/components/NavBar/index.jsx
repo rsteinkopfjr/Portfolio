@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 // import Switch from "react-switch";
 import styles from "./navbar.module.css";
-import logo from "../../images/RSLogo.png";
+import logo from "../../images/Logos/RSLogo.png";
 
 //TODO Web Template Studio: Add a new link in the NavBar for your page here.
 // A skip link is included as an accessibility best practice. For more information visit https://www.w3.org/WAI/WCAG21/Techniques/general/G1.
@@ -26,8 +26,8 @@ class NavBar extends Component {
           <Link className="navbar-brand" to="/">
             <img src={logo} width="70" height="70" alt="" />
           </Link>
-          {/* <div className="navbar-nav">
-            <label htmlFor="icon-switch">
+          <div className="navbar-nav">
+            {/* <label htmlFor="icon-switch">
               <Switch
                 checked={this.state.checked}
                 onChange={this.handleChange}
@@ -59,8 +59,8 @@ class NavBar extends Component {
                 className="react-switch"
                 id="icon-switch"
               />
-            </label>
-          </div> */}
+            </label> */}
+          </div>
         </nav>
       </React.Fragment>
     );
