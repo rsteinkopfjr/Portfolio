@@ -95,6 +95,16 @@
           ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
         document.body.appendChild(css);
       };
+
+      window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        console.log(currentScrollPos);
+        if (currentScrollPos < 25) {
+          document.getElementById("scroll").style.display = "block";
+        } else {
+          document.getElementById("scroll").style.display = "none";
+        }
+      };
     </script>
   </body>
 </html>

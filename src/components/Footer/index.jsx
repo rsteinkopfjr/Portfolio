@@ -12,7 +12,7 @@ class Footer extends Component {
         <div className="container">
           <div className="row">
             <div className="col-8">
-              <h5 className={styles.title}>rob.steinkopf@gmail.com</h5>
+              <h5 className={styles.title}>Rob.steinkopf@gmail.com</h5>
             </div>
             <div className="col-1">
               <a

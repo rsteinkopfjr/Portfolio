@@ -10,6 +10,11 @@ class App extends Component {
     return (
       <React.Fragment>
         <NavBar />
+        <div className="container scroll-container" id="scroll">
+          <div className="chevron chevron-light" />
+          <div className="chevron chevron-light" />
+          <div className="chevron chevron-light" />
+        </div>
         <Main />
         <Footer />
       </React.Fragment>
